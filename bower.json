@@ -1,0 +1,19 @@
+{
+  "name": "primely-paycheckgraph",
+  "version": "0.0.1",
+  "description": "Primely Web Console",
+  "main": "js/admin.js",
+  "authors": [
+    "Yoshiki Naagawa"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/yoshiki-o0/primely_web_console",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
