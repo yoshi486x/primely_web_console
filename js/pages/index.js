@@ -12,7 +12,7 @@
     // initRealTimeChart();
     // new Chart(document.getElementById("line_chart").getContext("2d"), getChartJs('bar'));
     // new Chart(document.getElementById("line_chart").getContext("2d"), getChartJs('bar_new'));
-    $.get('../../data/data.json').then(function(data) {
+    $.getJSON('https://raw.githubusercontent.com/yoshiki-o0/primely_web_console/master/data/data.json').then(function(data) {
         console.log(data)
         new Chart(document.getElementById('line_chart').getContext('2d'), getChartJs('bar_new', data))
     })
