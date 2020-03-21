@@ -1,13 +1,13 @@
 ﻿$(function () {
     //Widgets count
-    $('.count-to').countTo();
+    // $('.count-to').countTo();
 
     //Sales count to
-    $('.sales-count-to').countTo({
-        formatter: function (value, options) {
-            return '$' + value.toFixed(2).replace(/(\d)(?=(\d\d\d)+(?!\d))/g, ' ').replace('.', ',');
-        }
-    });
+    // $('.sales-count-to').countTo({
+    //     formatter: function (value, options) {
+    //         return '$' + value.toFixed(2).replace(/(\d)(?=(\d\d\d)+(?!\d))/g, ' ').replace('.', ',');
+    //     }
+    // });
 
     // initRealTimeChart();
     // new Chart(document.getElementById("line_chart").getContext("2d"), getChartJs('bar'));
@@ -16,8 +16,8 @@
         console.log(data)
         new Chart(document.getElementById('line_chart').getContext('2d'), getChartJs('bar_new', data))
     })
-    initDonutChart();
-    initSparkline();
+    // initDonutChart();
+    // initSparkline();
 });
 
 var realtime = 'on';
