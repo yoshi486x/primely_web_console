@@ -1,3 +1,3 @@
-# Paycheck Web Console
+# Primely Web Console
 
 Developing web console for paycheck graph
